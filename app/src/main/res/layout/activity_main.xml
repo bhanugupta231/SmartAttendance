@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ae90"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+
+        android:layout_height="match_parent"
+        tools:context="com.example.abc.smartattendance.MainActivity">
+
+        <EditText
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:hint="enter email id(e.g:abc@abc.com)"
+            android:textSize="16dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/etemail"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password(min 6 char)"
+            android:textColorHint="#fff"
+
+            android:textSize="16dp"
+            android:inputType="textPassword"
+            android:id="@+id/etpassword"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#adff"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:id="@+id/btnregister"
+            android:text="Register"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"
+            android:text="Already Registered?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#51bea6"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"
+            android:id="@+id/tvsignin"
+            android:text="Sign in here"/>
+
+    </LinearLayout>
+</ScrollView>
